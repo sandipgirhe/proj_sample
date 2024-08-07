@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #flex{
+            display: flex;
+            justify-content: space-around;
+            flex-direction:column;
+            gap: 10px;
+
+
+        }
+        #flexbutton{
+            height: 100px;
+            width: 100px;
+            border: 2px black solid;
+        } */
+         .loader{
+            height: 100px;
+            width: 100px;
+            border: 8px blue solid;
+            border-color: rgb(111, 0, 255) rgb(61, 7, 241) rgb(51, 0, 255) rgb(165, 34, 4);
+            border-radius: 50%;
+            margin-left: 80%;
+           animation: unique 1s linear infinite;
+         }
+         @keyframes unique {
+                from{
+                    rotate: 0deg;
+                }
+                to{
+                    rotate: 360deg;
+                }
+            }
+    </style>
+</head>
+<body>
+    <!-- <div id="flex">
+       <div id="flexbutton"></div>
+       <div id="flexbutton"></div>
+       <div id="flexbutton"></div>
+       <div id="flexbutton"></div> -->
+
+    <!-- </div> -->
+     <div class="loader"></div>
+</body>
+</html>
